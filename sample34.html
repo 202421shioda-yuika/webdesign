@@ -27,22 +27,25 @@
             }
             header p{margin-left:20px;}
             /* ナビゲーション CSS */
-            nav{background-color:burlywood;}
-            nav ul{
-                padding:5px;
-                list-style-type:none;
-            }
+            nav{
+                padding-top:5px;
+                padding-bottom:5px;
+                background-color:burlywood;}
+            nav ul{list-style-type:none;}
             nav li{
                 width:298px;
                 height:38px;
-                margin:5px;
+                margin-left:5px;
+                margin-right:5px;
                 padding:5px;
                 line-height:38px;
+                float:left;
                 border:solid 1px brown;
                 background-color:bisque;
             }
             /*メインコンテンツ CSS */
             main{
+                clear:both;
                 width:620px;
                 padding-top:10px;
                 padding-bottom:10px;
@@ -79,15 +82,15 @@
             <article>
                 <h2>ピックアップスイーツ</h2>
                 <p>今月のオススメスイーツを２つ紹介します。</p>
-                <section>
+                <section class="sweets">
                     <h3 id="blanc">モンブラン</h3>
                     <p>今年とれた国内産の栗を使用したケーキです。</p>
-                    <img src="images/blanc1.jpg" alt="モンブランの写真">
+                    <img src="images/Blanc2.jpg" alt="モンブランの写真">
                 </section>
-                <section>
+                <section class="sweets">
                     <h3 id="macron">マカロン</h3>
                     <p>沖縄産の砂糖を使用したマカロンです。</p>
-                    <img src="images/macron1.jpg" alt="マカロンの写真">
+                    <img src="images/macron2.jpg" alt="マカロンの写真">
                 </section>
             </article>
                 </main>
