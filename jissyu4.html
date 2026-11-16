@@ -1,1 +1,150 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>マテリアルスイーツ：素材</title>
+        <style>
+            /* ページ全体 CSS */
+            body{
+                margin: 0;
+                font-size: 16px;
+                background-color: ivory;
+                background-image: url(images/gold_back.jpg);
+                background-repeat: repeat-y;
+            }
+            /* リセット CSS */
+            h1,h2,h3,ul,li,p{
+                margin: 0;
+                padding: 0;
+            }
+            /* ヘッダー CSS */
+            header{
+                width: 1200px;
+                background-color:bisque;
+            } 
+            h1{
+                margin-left: 20px;
+                font-size: 32px;
+                color:darkred;
+            }
+            header p{
+                margin-left: 20px;
+            }
+            header img{
+                display:block;
+            }
+            /* ナビゲーション CSS */
+            nav {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: burlywood;
+            }
+            nav ul{
+                display: flex;
+                list-style: none;
+            }
+            nav li{
+                width: 580px;
+                height: 38px;
+                margin-left: 10px;
+                margin-right: 10px;
+                line-height: 38px;
+                border: solid 1px brown;
+                background-color: bisque;
+                text-align: center;
+            }
+            nav li a{
+                display: block;
+                color:darkred;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            nav li a:hover{
+                background-color:brown;
+                color:bisque;
+            }
+            /* メインコンテンツ CSS */
+            main {
+                width: 1200px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color:antiquewhite;
+                overflow: hidden;
+            }
+            article h2{
+                font-size: 24px;
+                color:darkred;
+                margin-left: 10px;
+            }
+            article p{
+                margin-left: 10px;
+            }
+            .material_area{
+                display: flex;
+            }
+            .material{
+                flex: 1;
+                padding: 10px;
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color: burlywood;
+            }
+            .material img{
+                display: block;
+                width: 100%;
+            }
+            h3{
+                font-size: 20px;
+                color: brown;
+            }
+            /* フッター CSS */
+            footer{
+                width: 1160px;
+                padding: 20px;
+                text-align: right;
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>素材について</h1>
+            <p>当店のスイーツは、国内産の素材にこだわって作っています。</p>
+            <img src="images/material.jpg" alt="ヘッダー画像">
+            <nav>
+                <ul>
+                    <li><a href="#chestnut">栗</a></li>
+                    <li><a href="#sugar">苺</a></li>
+                    <li><a href="#wheat">砂糖</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h2>ピックアップ素材</h2>
+                <p>素材はすべて厳選していますが、特にこだわりを持っている素材を紹介します。</p>
+                <div class="material_area">
+                <section class="material">
+                    <h3 id="chestnut">栗</h3>
+                    <p>モンブランの栗は岐阜産を使用しています。</p>
+                    <img src="images/chestnut1.jpg" alt="栗の写真">
+                </section>
+                <section class="material">
+                    <h3 id="wheat">苺</h3>
+                    <p>苺は、すべて栃木産を使用しています。</p>
+                    <img src="images/strawberry1.jpg" alt="いちごの写真">
+                </section>
+                <section class="material">
+                    <h3 id="sugar">砂糖</h3>
+                    <p>砂糖は沖縄産と北海道産を使い分けています。</p>
+                    <img src="images/sugar1.jpg" alt="サトウキビの写真">
+                </section>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <small>&copy; 2025 Material Sweets.</small>
+        </footer>
+    </body>
+</html>
