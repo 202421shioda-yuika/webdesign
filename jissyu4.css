@@ -1,1 +1,103 @@
-
+ <style>
+            /* ページ全体 CSS */
+            body{
+                margin: 0;
+                font-size: 16px;
+                background-color: ivory;
+                background-image: url(images/gold_back.jpg);
+                background-repeat: repeat-y;
+            }
+            /* リセット CSS */
+            h1,h2,h3,ul,li,p{
+                margin: 0;
+                padding: 0;
+            }
+            /* ヘッダー CSS */
+            header{
+                width:640px;
+                background-color:bisque;
+            } 
+            h1{
+                margin-left: 20px;
+                font-size: 32px;
+                color:red;
+            }
+            header p{
+                margin-left: 20px;
+            }
+            header img{
+                display:block;
+            }
+            /* ナビゲーション CSS */
+            nav {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: burlywood;
+            }
+            nav ul{
+                display: flex;
+                list-style: none;
+            }
+            nav li{
+                width: 640px;
+                height: 38px;
+                margin-left: 10px;
+                margin-right: 10px;
+                line-height: 38px;
+                border: solid 1px brown;
+                background-color: bisque;
+                text-align: center;
+            }
+            nav li a{
+                display: block;
+                color:darkred;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            nav li a:hover{
+                background-color:brown;
+                color:bisque;
+            }
+            /* メインコンテンツ CSS */
+            main {
+                width:640px;
+                padding-top:10px;
+                padding-bottom:10px;
+                background-color:antiquewhite;
+                overflow: hidden;
+            }
+            article h2{
+                font-size: 24px;
+                color:darkred;
+                margin-left: 10px;
+            }
+            article p{
+                margin-left:10px;
+            }
+            .material_area{
+                display:flex;
+            }
+            .material{
+                flex:1;
+                padding:10px;
+                margin-top:20px;
+                margin-left:10px;
+                margin-right:10px;
+                background-color: burlywood;
+            }
+            .material img{
+                display: block;
+                width: 100%;
+            }
+            h3{
+                font-size:20px;
+                color:brown;
+            }
+            /* フッター CSS */
+            footer{
+                width:640px;
+                padding:10px;
+                text-align:right;
+                background-color:bisque;
+            }
+        </style>
