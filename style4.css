@@ -95,9 +95,9 @@
             }
             /* フッター CSS */
             footer{
-                width:640px;
+                width: 620px;
                 padding:10px;
-                text-aling:right;   
+                text-align:right;  
                 background-color:bisque;
             }
 
