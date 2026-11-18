@@ -62,6 +62,9 @@ nav li {
     float: left;
     background-color: burlywood;
 }
+.material img{
+            width:100%;
+}
             h3{
                 font-size:20px;
                 color:brown;
