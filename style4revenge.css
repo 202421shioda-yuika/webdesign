@@ -28,9 +28,7 @@
                 padding-bottom:5px;
                 overflow:hidden;
                 background-color:burlywood;}
-            nav ul {
-    list-style-type: none;
-}
+            nav ul {list-style-type:none;}
 nav li {
     width: 190px;
     height: 38px;
