@@ -64,6 +64,7 @@ nav li {
 }
 .material img{
             width:100%;
+            vertical-align: bottom;
 }
             h3{
                 font-size:20px;
