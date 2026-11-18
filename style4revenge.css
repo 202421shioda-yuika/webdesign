@@ -55,7 +55,7 @@ nav li {
                 font-size:24px;
                 color:darkred;
             }
-.sweets {
+.material {
     width: 170px;
     padding: 10px;
     margin-top: 20px;
@@ -63,7 +63,7 @@ nav li {
     float: left;
     background-color: burlywood;
 }
-.sweets img{
+.material img{
             width:100%;
             vertical-align: bottom;
 }
